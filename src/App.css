@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-image: url('../public/img/recruitechnology_darkness.jpg'); 
+  background-position: 50% 50%;
+  background-color:#000000;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2%;
+}
+
+.SectionsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-gap: 190px; */
+}
+
+.black-background {
+  background-color: #000000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');

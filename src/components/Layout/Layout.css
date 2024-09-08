@@ -1,0 +1,19 @@
+.Layout{
+    /* padding-top: 3%; */
+    /* filter: blur(2px); */
+    font-size: 18px;
+    /* height: 50vh;  */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .Layout {
+      /* padding-top: 20%; Еще больший отступ сверху для мобильных устройств */
+      font-size: 16px; /* Уменьшенный размер шрифта для лучшей читаемости на маленьких экранах */
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');

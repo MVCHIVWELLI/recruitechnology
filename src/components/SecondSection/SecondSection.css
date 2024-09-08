@@ -1,0 +1,35 @@
+.Block{
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    /* margin-top:20%; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.item {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+  .Avatar {
+    background-color: black;
+  }
+  
+  .Typography {
+    color: white;
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Медиа-запрос для мобильных устройств с шириной экрана до 768px */
+  @media screen and (max-width: 768px) {
+    .Block {
+      margin-top: 10%; /* Уменьшенный отступ сверху для мобильных устройств */
+    }
+  
+    .Item {
+      max-width: 90%; /* Уменьшенная максимальная ширина элемента для мобильных устройств */
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
